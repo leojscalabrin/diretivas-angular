@@ -21,4 +21,12 @@ export class CardComponent implements OnInit{
     throw new Error('Method not implemented.');
   }
 
+  adicionar() {
+    this.produtos.push("ednaldo")
+  }
+
+  remover(index: number) {
+    this.produtos.splice(index, 1)
+  }
+
 }

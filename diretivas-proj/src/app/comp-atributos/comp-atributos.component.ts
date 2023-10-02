@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class CompAtributosComponent {
   estilo:string="enable"
+  corFundo:string = "blue"
+  corDaFonte:string = "white"
+
   constructor() {
 
   }

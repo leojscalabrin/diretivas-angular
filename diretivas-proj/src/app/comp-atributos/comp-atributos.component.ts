@@ -9,9 +9,13 @@ export class CompAtributosComponent {
   estilo:string="enable"
   corFundo:string = "blue"
   corDaFonte:string = "white"
+  item:string=""
+  lista:string[] = []
 
-  constructor() {
+  constructor() {}
 
+  adicionarLista() {
+    this.lista.push(this.item)
   }
 
   ngOnInit(): void {
